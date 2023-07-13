@@ -1,0 +1,63 @@
+/* GENERAL */
+*
+{
+    margin: 0 auto;
+    padding: 0;
+}
+
+html,body
+{
+
+    height:100%;
+}
+
+body
+{
+    background-image: url(../img/background2.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.squada{font-family: 'Squada One', cursive;}
+
+.roboto{font-family: 'Roboto', sans-serif;}
+
+
+.amarillo {color: #E0CC78;}
+
+.verde-o {color: #007038;}
+
+.verde-c {color: #99BF38;}
+
+.blanco{color: white;}
+
+.gris {color: #0E0E0E;}
+
+
+.bg-amarillo {background-color: #E0CC78;}
+
+.bg-verde-o {background-color: #007038;}
+
+.bg-verde-c {background-color: #99BF38;}
+
+.bg-blanco {background-color: white;}
+
+.bg-gris {background-color: #0E0E0E;}
+
+
+p {font-size: 12px;}
+
+/* HEADER */
+
+
+
+/* CONTENT */
+
+form.sesiones
+{
+    height: 100vh;
+}
+
+
+/* FOOTER */

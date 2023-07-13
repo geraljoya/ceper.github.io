@@ -1,0 +1,174 @@
+html,body
+{
+
+height:100%;
+
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.squada{font-family: 'Squada One', cursive;}
+
+.roboto{font-family: 'Roboto', sans-serif;}
+
+
+.amarillo {color: #E0CC78;}
+
+.verde-o {color: #007038;}
+
+.verde-c {color: #99BF38;}
+
+.blanco{color: white;}
+
+.gris {color: #0E0E0E;}
+
+
+.bg-amarillo {background-color: #E0CC78;}
+
+.bg-verde-o {background-color: #007038;}
+
+.bg-verde-c {background-color: #99BF38;}
+
+.bg-blanco {background-color: white;}
+
+.bg-gris {background-color: #0E0E0E;}
+
+
+.barra-fija
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100vh;
+    background-color: #0e0e0e;
+}
+
+.menu-icon
+{
+    position: fixed;
+    top: 45%;
+    right: 15px;
+    width: 60px;
+    height: 65px;
+    padding: 4px 8px;
+    background-color: #0e0e0e;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.menu-icon span
+{
+    width: 100%;
+    height: 5px;
+    display: block;
+    margin: 10px 0;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.menu-icon.active span
+{
+    position: absolute;
+    width: calc(100% - 16px);
+    top: calc(50% - 8px);
+}
+
+.menu-icon.active span:nth-child(1)
+{
+    transform: rotate(45deg);
+}
+
+.menu-icon.active span:nth-child(3)
+{
+    transform: rotate(-45deg);
+}
+
+.menu-icon.active span:nth-child(2)
+{
+    display: none;
+}
+
+
+.sidebar
+{
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(0,0,0,.8);
+    transition: .5s;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.sidebar.active
+{
+    right: 100px;
+}
+
+.sidebar .menu
+{
+    margin: 0px;
+    padding: 40px 0;
+    width: 200px;
+    margin-left: 30px;
+}
+
+.sidebar .menu li
+{
+    list-style: none;
+}
+
+.sidebar .menu li a
+{
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.sidebar .menu li a:hover, sidebar .menu li a:active
+{
+    color: #99BF38;
+}
+
+.menu li a span
+{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.iconos-sociales
+{
+    padding: 0;
+    position: absolute;
+    right: 25px;
+    bottom: 10px;
+    box-sizing: border-box;
+}
+
+.iconos-sociales li
+{
+    list-style: none;
+}
+
+.iconos-sociales li a
+{
+    display: block;
+    font-size: 25px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    transition: .5s;
+}
+
+.iconos-sociales li a:hover, .iconos-sociales li a:active
+{
+    color: #E0CC78;
+}

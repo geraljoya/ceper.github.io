@@ -1,0 +1,173 @@
+/* GENERAL */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,body
+{
+    height:100%;
+}
+
+body
+{
+    background-image: url(../img/background1.png);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 80px;
+}
+
+.squada{font-family: 'Squada One', cursive;}
+
+.roboto{font-family: 'Roboto', sans-serif;}
+
+
+.amarillo {color: #E0CC78;}
+
+.verde-o {color: #007038;}
+
+.verde-c {color: #99BF38;}
+
+.blanco{color: white;}
+
+.gris {color: #0E0E0E;}
+
+
+.bg-amarillo {background-color: #E0CC78;}
+
+.bg-verde-o {background-color: #007038;}
+
+.bg-verde-c {background-color: #99BF38;}
+
+.bg-blanco {background-color: white;}
+
+.bg-gris {background-color: #0E0E0E;}
+
+
+p {font-size: 12px;}
+
+.barra12
+{
+    display: block;
+    height: 200px;
+}
+
+/* HEADER */
+
+
+
+/* CONTENT INDEX*/
+.pictures
+{
+    background-color: white;
+    background-image: url(../img/imagen-ceper.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 720px;
+}
+
+
+video
+{
+    width: cover;
+}
+
+
+
+
+/* CONTENT METODOLOGÍA*/
+
+.ensenanza
+{
+    border-top: 5px solid #0E0E0E;
+    border-bottom: 5px solid #0E0E0E;
+    width: 100%;
+}
+
+.ensenanza span
+{
+    border: 4px solid;
+    padding: 5px 25px;
+}
+
+.servicios
+{
+    background-image: url(../img/bg-servicios.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.servicio
+{
+    border-top: 5px solid #E0CC78;
+    border-bottom: 5px solid #99BF38;
+}
+
+
+/* CONTENT NOSOTROS*/
+
+
+.fundacion
+{
+    background-image: url(../img/fundacion.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+@media (min-width: 640px) {
+    p.lineas{
+    background-image: url(../img/lineas-diagonales.png);
+    background-repeat: no-repeat;
+    height: 215px;
+    padding-left: 100px;
+    position: absolute;
+    top: 500px;
+    width: 90%;}
+
+}
+
+@media (min-width: 800px) {
+    p.lineas{
+    background-image: url(../img/lineas-diagonales.png);
+    background-repeat: no-repeat;
+    height: 215px;
+    padding-left: 100px;
+    position: absolute;
+    top: 500px;
+    width: 90%;}
+
+@media (min-width: 1024px) {
+    p.lineas{
+    background-image: url(../img/lineas-diagonales.png);
+    background-repeat: no-repeat;
+    height: 215px;
+    padding-left: 100px;
+    position: absolute;
+    top: 280px;
+    width: 45%;}
+}
+
+@media (min-width: 1366px) {
+
+    p.lineas{
+    background-image: url(../img/lineas-diagonales.png);
+    background-repeat: no-repeat;
+    height: 215px;
+    padding-left: 100px;
+    position: absolute;
+    top: 280px;
+    width: 45%;}
+}

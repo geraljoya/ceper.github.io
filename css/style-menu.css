@@ -1,0 +1,176 @@
+html,body
+{
+
+height:100%;
+
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.squada{font-family: 'Squada One', cursive;}
+
+.roboto{font-family: 'Roboto', sans-serif;}
+
+
+.amarillo {color: #E0CC78;}
+
+.verde-o {color: #007038;}
+
+.verde-c {color: #99BF38;}
+
+.blanco{color: white;}
+
+.gris {color: #0E0E0E;}
+
+
+.bg-amarillo {background-color: #E0CC78;}
+
+.bg-verde-o {background-color: #007038;}
+
+.bg-verde-c {background-color: #99BF38;}
+
+.bg-blanco {background-color: white;}
+
+.bg-gris {background-color: #0E0E0E;}
+
+
+.logo
+{
+    height: 200px;
+    background-color: #0E0E0E;
+}
+
+/*
+.logo a img
+{
+    width: 50px;
+}
+*/
+
+.icono-menu
+{
+    position: fixed;
+    top: -35px;
+    left: 5px;
+    width: 60px;
+    height: 65px;
+    padding: 4px 8px;
+    background-color: #0e0e0e;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.icono-menu span
+{
+    width: 100%;
+    height: 5px;
+    display: block;
+    margin: 10px 0;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.icono-menu.active span
+{
+    position: absolute;
+    width: calc(100% - 16px);
+    top: calc(50% - 8px);
+}
+
+.icono-menu.active span:nth-child(1)
+{
+    transform: rotate(45deg);
+}
+
+.icono-menu.active span:nth-child(3)
+{
+    transform: rotate(-45deg);
+}
+
+.icono-menu.active span:nth-child(2)
+{
+    display: none;
+}
+
+
+.menu-sidebar
+{
+    position: fixed;
+    top: 0;
+    right: -280px;
+    width: 280px;
+    height: 100vh;
+    background-color: rgba(0,0,0,.8);
+    transition: .5s;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.menu-sidebar.active
+{
+    right: 0px;
+}
+
+.menu-sidebar .barra
+{
+    margin: 0px;
+    padding: 40px 0;
+    width: 200px;
+    margin-left: 30px;
+}
+
+.menu-sidebar .barra li
+{
+    list-style: none;
+}
+
+.menu-sidebar .barra li a
+{
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.menu-sidebar .barra li a:hover, sidebar .barra li a:active
+{
+    color: #99BF38;
+}
+
+.barra li a span
+{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.social-icon
+{
+    padding: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    float: right;
+    margin-top: 1em;
+    margin-right: 5px;
+}
+
+.social-icon li
+{
+    list-style: none;
+    display: block;
+}
+
+.social-icon li a
+{
+    font-size: 1.5em;
+    color: white;
+    transition: .5s;
+}
+
+.social-icon li a:hover, .social-icon li a:active
+{
+    color: #E0CC78;
+}
